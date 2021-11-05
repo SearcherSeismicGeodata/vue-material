@@ -1,6 +1,6 @@
 /*!
- * vue-material v1.0.0-beta-15
- * Made with <3 by marcosmoura 2021
+ * @searcherseismic/vue-material v1.0.0-beta-15-saismic
+ * Made with <3 by undefined 2021
  * Released under the MIT License.
  */
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -9,9 +9,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define(["vue"], factory);
 	else if(typeof exports === 'object')
-		exports["VueMaterial"] = factory(require("vue"));
+		exports["@searcherseismicVueMaterial"] = factory(require("vue"));
 	else
-		root["VueMaterial"] = factory(root["Vue"]);
+		root["@searcherseismicVueMaterial"] = factory(root["Vue"]);
 })(typeof self !== 'undefined' ? self : this, function(__WEBPACK_EXTERNAL_MODULE_8__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
