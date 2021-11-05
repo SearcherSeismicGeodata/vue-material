@@ -1,5 +1,5 @@
 /*!
- * @searcherseismic/vue-material v1.0.0-beta-15-saismic
+ * @searcherseismic/vue-material v1.0.0-beta-18-saismic
  * Made with <3 by undefined 2021
  * Released under the MIT License.
  */
@@ -1057,7 +1057,7 @@ exports.default = {
       this.clearField();
     },
     isInvalidValue: function isInvalidValue() {
-      return this.$el.validity.badInput;
+      return this.$el.validity ? this.$el.validity.badInput : false;
     },
     setFieldValue: function setFieldValue() {
       this.MdField.value = this.model;

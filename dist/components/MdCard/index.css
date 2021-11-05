@@ -1,5 +1,5 @@
 /*!
- * @searcherseismic/vue-material v1.0.0-beta-15-saismic
+ * @searcherseismic/vue-material v1.0.0-beta-18-saismic
  * Made with <3 by undefined 2021
  * Released under the MIT License.
  */
