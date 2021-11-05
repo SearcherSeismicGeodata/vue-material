@@ -24,6 +24,9 @@
   </a>
 </p>
 
+Custom build of Vue Material to fix some bugs that occurred after upgrading to Vue v2.6.
+<strong>This is experimental and must not be relied on.</strong> The package will probably be removed sometime.
+
 Vue Material is Simple, lightweight and built exactly according to the Google <a href="http://material.google.com" target="_blank">Material Design</a> specs
 
 Build well-designed apps that can fit on every screen with support to all modern Web Browsers with dynamic themes, components on demand and all with an ease-to-use API

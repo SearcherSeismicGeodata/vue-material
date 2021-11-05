@@ -1,7 +1,7 @@
 {
   "name": "@searcherseismic/vue-material",
-  "description": "Material Design for Vue.js",
-  "version": "1.0.0-beta-15-saismic",
+  "description": "Material Design for Vue.js - with bug fixes for vue v2.6",
+  "version": "1.0.0-beta-18-saismic",
   "license": "MIT",
   "author": "marcosmoura <marcosvmmoura@gmail.com>",
   "repository": {
