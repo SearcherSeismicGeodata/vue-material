@@ -13,14 +13,14 @@ const spinner = new Ora({
 const entries = [
   webpackConfig({
     libraryTarget: 'umd',
-    filename: `${pack.name}.min.js`,
+    filename: `${pack.name.substring(pack.name.indexOf("/")+1)}.min.js`,
     compress: true,
     css: true,
     analyze: true
   }),
   webpackConfig({
     libraryTarget: 'umd',
-    filename: `${pack.name}.js`,
+    filename: `${pack.name.substring(pack.name.indexOf("/")+1)}.js`,
     css: true
   }),
   webpackConfig({
